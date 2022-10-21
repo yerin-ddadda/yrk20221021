@@ -20,6 +20,10 @@ public class MemberVO {
 		this.name = name;
 		this.id = id;
 	}
+	@Override
+	public String toString() {
+		return "MemberVO [name=" + name + ", id=" + id + "]";
+	}
 	
 	
 
