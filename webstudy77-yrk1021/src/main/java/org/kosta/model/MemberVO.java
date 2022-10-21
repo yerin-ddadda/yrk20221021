@@ -15,6 +15,11 @@ public class MemberVO {
 	public void setId(String id) {
 		this.id = id;
 	}
+	public MemberVO(String name, String id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}
 	
 	
 
